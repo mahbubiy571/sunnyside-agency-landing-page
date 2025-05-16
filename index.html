@@ -7,8 +7,80 @@
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-    <header class="header"></header>
-    <main class="main"></main>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__content">
+                <div class="site__logo">
+                    <img class="logo" src="./assets/logo.svg" alt="site-logo">
+                </div>
+                <nav class="sitenav">
+                    <ul class="sitenav__list">
+                        <li class="sitenav__item">
+                            <a class="sitenav__link" href="">About</a>
+                        </li>
+                        <li class="sitenav__item">
+                            <a class="sitenav__link" href=""> Services</a>
+                        </li>
+                        <li class="sitenav__item">
+                            <a class="sitenav__link" href="">Projects</a>
+                        </li>
+                        <li class="sitenav__item">
+                            <button class="btn btn__header">CONTACT</button>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="show-btn" class="header__toggle_btn">
+                    <img id="show-btn__image" src="./assets/icon-hamburger.svg" alt="icon-hamburger" width="24" height="18">
+               </button>
+            </div>
+           <div class="header__title">
+                 <h2 class="header-title__text">We are creatives</h2>
+           </div>
+           <img class="header__arrow" src="./assets/icon-arrow-down.svg" alt="header-arrow">
+    </div>
+        <header class="header__hidden">
+            <nav class="header__hidden__nav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="">About</a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href=""> Services</a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="">Projects</a>
+                    </li>
+                    <li class="sitenav__item">
+                        <button class="btn btn__header">CONTACT</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <main class="main">
+       <div class="services__container ">
+           <div class="services">
+            <div class="services-text__content">
+                <h2 class="services-text__title">Transform your brand</h2>
+                <p class="services-text__descraption">
+                    We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+                </p>
+                <a class="more__text" href="#">
+                    LEARN MORE 
+                    <span class="more__mark"></span>
+                </a>
+               </div>
+               <div class="services__image">
+                <img class="image__transform" 
+                src="./assets/image-transform.jpg" 
+                alt="image-transform" 
+                width="720" 
+                height="600">
+            </div>
+           </div>
+       </div>
+    </main>
     <footer class="footer"></footer>
+    <script src="./js/app.js"></script>
 </body>
 </html>
