@@ -38,7 +38,7 @@
            </div>
            <img class="header__arrow" src="./assets/icon-arrow-down.svg" alt="header-arrow">
     </div>
-        <header class="header__hidden">
+        <div class="header__hidden">
             <nav class="header__hidden__nav">
                 <ul class="sitenav__list">
                     <li class="sitenav__item">
@@ -55,11 +55,11 @@
                     </li>
                 </ul>
             </nav>
-        </header>
+        </div>
     </header>
     <main class="main">
-       <div class="services__container ">
-           <div class="services">
+       <section class="services__container container">
+           <div class="services-top">
             <div class="services-text__content">
                 <h2 class="services-text__title">Transform your brand</h2>
                 <p class="services-text__descraption">
@@ -67,18 +67,77 @@
                 </p>
                 <a class="more__text" href="#">
                     LEARN MORE 
-                    <span class="more__mark"></span>
+                    <span class="more__mark1"></span>
                 </a>
                </div>
                <div class="services__image">
                 <img class="image__transform" 
                 src="./assets/image-transform.jpg" 
                 alt="image-transform" 
-                width="720" 
-                height="600">
+                >
             </div>
            </div>
-       </div>
+           <div class="services">
+            <div class="services__image">
+                <img class="image-stand-out" 
+                src="./assets/image-stand-out.jpg" 
+                alt="image-stand-out" 
+                >
+            </div>
+            <div class="services-text__content">
+                <h2 class="services-text__title">Stand out to the right audience</h2>
+                <p class="services-text__descraption">
+                    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+                </p>
+                <a class="more__text" href="#">
+                    LEARN MORE 
+                    <span class="more__mark2"></span>
+                </a>
+               </div>
+           </div>
+           <div class="services">
+            <div class="services-image-buttom-left">
+                <h2 class="image-buttom__title">Graphic Design</h2>
+                 <p class="image-buttom__descraption">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+            <div class="services-image-buttom-right">
+                <h2 class="image-buttom__title">Photography</h2>
+                <p class="image-buttom__descraption">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+           </div>
+       </section>
+       <section class="testimonials__container container">
+        <h3 class="testimonials__title">Client Testimonials</h3>
+        <ul class="testimonial-list">
+          <li class="testimonial">
+            <img class="user-photo" src="./assets/image-emily.jpg" alt="Emily">
+            <p class="user-bio">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <h5 class="user-name">Emily R.</h5>
+            <span class="user-job">Marketing Director</span>
+          </li>
+          <li class="testimonial">
+            <img class="user-photo" src="./assets/image-thomas.jpg" alt="Thomas">
+            <p class="user-bio">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <h5 class="user-name">Thomas S.</h5>
+            <span class="user-job">Chief Operating Officer</span>
+          </li>
+          <li class="testimonial">
+            <img class="user-photo" src="./assets/image-jennie.jpg" alt="Jennie">
+            <p class="user-bio">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <h5 class="user-name">Jennie F.</h5>
+            <span class="user-job">Business Owner</span>
+          </li>
+        </ul>
+      </section>
+      <section class="gallery container">
+         <div class="picture__left">
+            <img class="gallery__picture" src="./assets/image-gallery-milkbottles.jpg" alt="Milk bottles" />
+            <img class="gallery__picture" src="./assets/image-gallery-orange.jpg" alt="Plate with orange" />
+         </div>
+        <div class="picture__right"> 
+            <img class="gallery__picture" src="./assets/image-gallery-cone.jpg" alt="Waffle cone" />
+            <img class="gallery__picture" src="./assets/image-gallery-sugar-cubes.jpg" alt="Sugar cubes" /></div>
+      </section>
     </main>
     <footer class="footer"></footer>
     <script src="./js/app.js"></script>

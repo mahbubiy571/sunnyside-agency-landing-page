@@ -5,6 +5,8 @@
     background-size: cover;
     flex-direction: column;
     height: 800px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .header__content {
@@ -24,18 +26,13 @@
     line-height: 100%;
     letter-spacing: 8.75px;
     color:#FFFFFF;
-    margin-left: 34.5rem;
-}
-
-.logo {
-   margin-left: 4rem;
+    margin-left: 50rem;
 }
 
 .sitenav__list {
     display: flex;
     align-items: center;
     gap:4.7rem;
-    margin-right: 4.8rem;
 }
 
 .sitenav__link {
@@ -116,10 +113,13 @@
 }
 
 @media screen and (max-width:400px) {
+   
     .header__container {
         background-position: center;
         background-size:cover;
         height: 550px;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
     }
     
     .sitenav {
